@@ -1,0 +1,11 @@
+Backend
+Desenvolva uma api onde seja possível: 
+- cadastrar turmas, os alunos de cada turma e as disciplinas de cada turma.
+- cadastrar um professor e as disciplinas que ele leciona.
+- buscar os dados de um professor com suas disciplinas.
+- buscar um aluno com a sua turma, as disciplinas de sua turma e os professores de cada disciplina.
+- remover um aluno e/ou professor.
+- Diferencial: Notificar os alunos quando uma nova disciplina for adicionada na sua turma (Você pode simular a notificação utilizando um log ou um serviço de filas)
+Utilizar Nodejs, SQL e/ou qualquer framework que considerar válido
+
+soft-delete é um diferencial
