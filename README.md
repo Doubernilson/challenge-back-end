@@ -14,11 +14,11 @@ facilitar testes futuros. Também utilizei o Supervisor para manter a API em exe
 
 
 
-GUIA DE REFERÊNCIA PARA A API:
+## GUIA DE REFERÊNCIA PARA A API:
 
 
 
-POST  /cadastrar/turmas
+### POST  /cadastrar/turmas
 Exemplo de req.data a enviar:
 [
 	{
@@ -31,7 +31,7 @@ Exemplo de req.data a enviar:
 
 
 
-POST  /cadastrar/disciplinas
+### POST  /cadastrar/disciplinas
 Exemplo de req.data a enviar:
 [
 	{
@@ -44,7 +44,7 @@ Exemplo de req.data a enviar:
 
 
 
-POST /cadastrar/pessoas
+### POST /cadastrar/pessoas
 Exemplo de req.data a enviar:
 [
 	{
@@ -67,7 +67,7 @@ Exemplo de req.data a enviar:
 
 
 
-POST  /cadastrar/alunos
+### POST  /cadastrar/alunos
 Exemplo de req.data a enviar:
 [
 	{
@@ -85,7 +85,7 @@ Exemplo de req.data a enviar:
 
 
 
-POST  /atrelar/alunos
+### POST  /atrelar/alunos
 Exemplo de req.data a enviar:
 [
 	{
@@ -96,7 +96,7 @@ Exemplo de req.data a enviar:
 
 
 
-POST  /cadastrar/professores
+### POST  /cadastrar/professores
 Exemplo de req.data a enviar:
 [
 	{
@@ -106,7 +106,7 @@ Exemplo de req.data a enviar:
 
 
 
-POST  /atrelar/disciplinas-e-professores
+### POST  /atrelar/disciplinas-e-professores
 Exemplo de req.data a enviar:
 [
 	{
@@ -117,7 +117,7 @@ Exemplo de req.data a enviar:
 
 
 
-POST  /atrelar/disciplinas-e-turmas-e-professores
+### POST  /atrelar/disciplinas-e-turmas-e-professores
 Exemplo de req.data a enviar:
 [
 	{
@@ -129,7 +129,7 @@ Exemplo de req.data a enviar:
 
 
 
-GET  /professores/:codigo?
+### GET  /professores/:codigo?
 Exemplo de req.data a enviar:
 [
 	{}
@@ -143,7 +143,7 @@ ou
 
 
 
-GET  /alunos/:codigo?
+### GET  /alunos/:codigo?
 Exemplo de req.data a enviar:
 [
 	{}
@@ -158,7 +158,7 @@ ou
 
 
 
-GET  /disciplinas-e-turmas-e-professores/:nome_da_turma?
+### GET  /disciplinas-e-turmas-e-professores/:nome_da_turma?
 Exemplo de req.data a enviar:
 [
 	{}
@@ -172,7 +172,7 @@ ou
 
 
 
-GET  /disciplinas/:nome_da_disciplina?
+### GET  /disciplinas/:nome_da_disciplina?
 Exemplo de req.data a enviar:
 [
 	{}
@@ -186,7 +186,7 @@ ou
 
 
 
-DELETE  /remover-individuos
+### DELETE  /remover-individuos
 Exemplo de req.data a enviar:
 [
 	{
